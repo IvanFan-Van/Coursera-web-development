@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+header h1{
+	text-align: center;
+	margin: 24px 0;
+	font-size: 1.75em;
+}
+
+section.container  {
+	background-color: rgb(153, 153, 153);
+	border: 3px solid black;
+	margin: 16px 24px;
+	position: relative;
+	padding-top: 30px;
+}
+
+section.container .title {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 33.3%;
+	line-height: 1.8;
+	padding: 0 5px;
+	font-size: 1.25em;
+	font-weight: bold;
+	background-color: rgb(213, 152, 152);
+	text-align: center;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+}
+
+section.container .content {
+	margin: 16px;
+	font-weight: bold;
+}
